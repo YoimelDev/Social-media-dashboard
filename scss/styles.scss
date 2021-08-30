@@ -184,3 +184,52 @@ body {
 .brightRed {
 	color: $brightRed;
 }
+
+// Overview
+.overview {
+	display: grid;
+	row-gap: 2rem;
+	margin-bottom: 4rem;
+
+	h2 {
+		font-size: 2.4rem;
+		color: $white;
+	}
+	&__card {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		height: 14rem;
+		padding: 2.5rem;
+		background-color: $darkDesaturatedBlue;
+		border-radius: 0.5rem;
+
+		&--redSocial {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+
+			p {
+				font-weight: 700;
+				color: $desaturatedBlue;
+			}
+		}
+
+		&--datas {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+
+			h2 {
+				font-size: 3.5rem;
+			}
+
+			p {
+				display: flex;
+				align-items: center;
+				gap: 0.5rem;
+				font-weight: 700;
+			}
+		}
+	}
+}
