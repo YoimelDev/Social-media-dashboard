@@ -40,7 +40,6 @@ html {
 	margin: 0;
 }
 body {
-	height: 100vh;
 	background-color: $veryDarkBlueBG;
 	font-family: 'Inter', sans-serif;
 	font-size: 1.4rem;
@@ -231,5 +230,20 @@ body {
 				font-weight: 700;
 			}
 		}
+	}
+}
+
+.footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 2rem;
+	color: $white;
+
+	a {
+		margin-left: 0.5rem;
+		text-decoration: none;
+		color: $desaturatedBlue;
 	}
 }
