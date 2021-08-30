@@ -84,6 +84,10 @@ body {
 			border-radius: 5rem;
 			background: $darkTheme;
 
+			&:hover {
+				cursor: pointer;
+			}
+
 			.toogle {
 				position: absolute;
 				top: 0.4rem;
@@ -104,8 +108,10 @@ body {
 }
 
 .cardSocial {
-	display: grid;
-	row-gap: 3rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 2rem;
 	margin-top: -4rem;
 	margin-bottom: 4rem;
 
@@ -116,9 +122,15 @@ body {
 		justify-content: space-around;
 		align-items: center;
 		height: 23rem;
+		width: 33.5rem;
 		padding: 3rem 0;
 		background-color: $darkDesaturatedBlue;
 		border-radius: 0.5rem;
+
+		&:hover {
+			cursor: pointer;
+			background-color: lighten($darkDesaturatedBlue, 8);
+		}
 
 		&--bg {
 			position: absolute;
@@ -202,6 +214,11 @@ body {
 		padding: 2.5rem;
 		background-color: $darkDesaturatedBlue;
 		border-radius: 0.5rem;
+
+		&:hover {
+			cursor: pointer;
+			background-color: lighten($darkDesaturatedBlue, 8);
+		}
 
 		&--redSocial {
 			display: flex;
