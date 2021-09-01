@@ -6,7 +6,7 @@
 
 ## 🎨 Preview
 
-You can see the result here → [Social media dashboard with theme switcher]()
+You can see the result here → [Social media dashboard with theme switcher](https://yoimeldev.github.io/Social-media-dashboard/)
 
 <details>
     <summary>🖥️ Desktop version</summary>
